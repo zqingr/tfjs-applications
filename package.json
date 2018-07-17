@@ -5,7 +5,7 @@
   "main": "./dist/index.bundle.js",
   "scripts": {
     "start": "npm-run-all --parallel watch:server watch:build",
-    "watch:server": "nodemon \"./dist/index.bundle.js\" --watch \"./dist\" ",
+    "watch:server": "nodemon \"./dist/index.js\" --watch \"./dist\" ",
     "watch:build": "webpack --watch",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"

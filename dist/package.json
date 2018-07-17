@@ -1,0 +1,24 @@
+{
+  "name": "tfjs-applications",
+  "version": "0.1.0",
+  "description": "Reference implementations of popular deep learning models.",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zqingr/tfjs-applications.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zqingr/tfjs-applications/issues"
+  },
+  "homepage": "https://github.com/zqingr/tfjs-applications#readme"
+}

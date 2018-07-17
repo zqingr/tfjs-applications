@@ -10,9 +10,8 @@ module.exports = function (env) {
     },
     output: {
       path: path.resolve(__dirname, 'dist'),
-      filename: '[name].bundle.js',
-      libraryTarget: "commonjs",
-      library: "tools"
+      filename: '[name].js',
+      libraryTarget: "commonjs"
     },
     resolve: {
       // Add `.ts` and `.tsx` as a resolvable extension.
