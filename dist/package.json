@@ -1,6 +1,6 @@
 {
   "name": "tfjs-applications",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Reference implementations of popular deep learning models.",
   "main": "./index.js",
   "types": "./index.d.ts",

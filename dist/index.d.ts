@@ -25,7 +25,7 @@ import { Model } from '@tensorflow/tfjs'
  * @param numClasses (number): number of classes (CIFAR10 has 10)
  * @returns model (Model): tfjs model instance
  */
-export type resnetV1 = ({ inputShape, depth, numClasses }: {inputShape: number[], depth: number, numClasses?: number}) => Model
+export declare function resnetV1 ({ inputShape, depth, numClasses }: {inputShape: number[], depth: number, numClasses?: number}): Model
 
 /**
  * ResNet Version 2 Model builder [b]
@@ -49,4 +49,4 @@ export type resnetV1 = ({ inputShape, depth, numClasses }: {inputShape: number[]
  * @param numClasses (number): number of classes (CIFAR10 has 10)
  * @returns model (Model): tfjs model instance
  */
-export type resnetV2 = ({ inputShape, depth, numClasses }: {inputShape: number[], depth: number, numClasses?: number}) => Model
+export declare function resnetV2 ({ inputShape, depth, numClasses }: {inputShape: number[], depth: number, numClasses?: number}): Model
